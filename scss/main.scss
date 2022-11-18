@@ -1,1 +1,10 @@
-photo
+$primary-color: black;
+$secondary-color: grey;
+
+h1 {
+  color: $primary-color;
+}
+
+p {
+  color: $secondary-color;
+}

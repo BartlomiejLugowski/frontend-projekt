@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Historia ASO</title>
+
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700,800&display=swap&subset=latin-ext"
+            rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/mine.css" />
+</head>
+<body><header class="header">
+    <div class="header__container container">
+        <a href="#" class="logo">Historia ASO</a>
+        <nav>
+            <ul class="header__nav">
+                <li class="nav__element">
+                    <a href="#why-us" class="nav__link">Jakie marki</a>
+                </li>
+                <li class="nav__element">
+                    <a href="#benefits" class="nav__link">Przykładowy raport</a>
+                </li>
+                <li class="nav__element">
+                    <a href="#prices" class="nav__link">Cennik</a>
+                </li>
+                <li class="nav__element">
+                    <a href="#contact" class="nav__link">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <H1>
+        Nasza firma zajmuje sie spradzeniem historii pojazdów w bazach danych serwisów ASO w Polsce i Europie. Sprawdzaneim Histotii ASO zajmujemy się od dawna i zaufało nam wielu zadowolonych klientów.
+        Zajmujemy sie sprawdzaniem Historii ASO wielu pojazdów:
+            <img src="photo/loga.jpg">
+    </H1>
+    <div>
+
+        <button>Pobierz przykładowy raport </button>
+
+    </div>
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>Marka</th>
+                <th>Raport Polska</th>
+                <th>Raport Europa </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>AUDI</td>
+                <td>50</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>opel</td>
+                <td>40</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>BMW</td>
+                <td>70</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Mercedes</td>
+                <td>100</td>
+                <td>150</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div>
+
+
+        <div id="formularz-kontaktowy" class="contact" role="dialog" aria-label="Formularz kontaktowy" aria-hidden="true">
+            <form class="emailForm" method="POST" action="https://formspree.io/your.email@example.com">
+                <label class="half" aria-live="polite">
+                    Twój email
+                    <input class="form-data" name="email" type="email" placeholder="Wpisz tu twój email" required>
+                </label>
+                <label class="half" aria-live="polite">
+                    Temat
+                    <input class="form-data" name="_subject" placeholder="Wpisz tu temat wiadomości" minlength="4" maxlength="78"
+                           required>
+                </label>
+                <label aria-live="polite">
+                    Wiadomość
+                    <textarea class="form-data" name="message" placeholder="Wpisz tu twoją wiadomość" minlength="4"
+                              maxlength="6000" required></textarea>
+                </label>
+                <label class="recaptcha-label" aria-live="polite">
+                    <div class="g-recaptcha" tabindex="-1" data-sitekey="6LevbxMUAAAAAIa8dsrFNJn0S_b_t5K8INV4z2JD"
+                         data-callback="recaptchaClearErr"></div>
+                </label>
+                <button class="emailFormSubmit main-btn" name="submit" type="submit">Wyślij</button>
+
+                <div class="emailFormAlert" aria-live="polite"></div>
+            </form>
+
+            <button type="button" id="close-contact-btn" class="close-btn" aria-label="Zamknij formularz kontaktowy"
+                    title="Zamknij formularz kontaktowy">
+                <i class="fa fa-times close-form"></i>
+            </button>
+        </div>
+    </div>
+</header>
+</body>
+</html>
+
